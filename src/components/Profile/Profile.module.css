@@ -1,0 +1,41 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 300px;
+  padding: 12px 12px;
+  border-radius: 4px;
+  outline: 1px solid rgb(0, 0, 0);
+  color: black;
+  font-weight: 500;
+}
+
+.avatar {
+  max-width: 200px;
+  height: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-weight: 300;
+  padding-right: 30px;
+}
+
+.label {
+  display: block;
+
+  /* text-align: center; */
+}

@@ -1,0 +1,28 @@
+.friend_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 500px;
+  padding: 12px 12px;
+  border-radius: 4px;
+  outline: 1px solid rgb(0, 0, 0);
+  color: black;
+  font-weight: 500;
+}
+
+.item{
+    list-style: none;
+}
+
+/* .item.online{
+      outline: 1px solid green;
+      background-color: red;
+}
+
+.item.offline{
+    outline: 1px solid red;
+} */
+

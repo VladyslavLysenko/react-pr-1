@@ -1,0 +1,15 @@
+.transaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;  
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 500px;
+  padding: 12px 12px;
+  border-radius: 4px;
+  outline: 1px solid rgb(0, 0, 0);
+  color: black;
+  font-weight: 500;
+}

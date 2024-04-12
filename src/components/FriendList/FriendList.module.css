@@ -17,12 +17,14 @@
     list-style: none;
 }
 
-/* .item.online{
+.online{
+  display: block;
       outline: 1px solid green;
-      background-color: red;
+      /* background-color: red; */
 }
 
-.item.offline{
+.offline{
+    display: block;
     outline: 1px solid red;
-} */
+}
 

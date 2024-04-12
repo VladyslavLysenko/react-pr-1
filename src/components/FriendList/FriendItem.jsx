@@ -1,14 +1,11 @@
 import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
-import clsx from 'clsx';
+
 
 export const FriendItem = ({ avatar, name, isOnline,online,offline}) => {
-  console.log(online)
   return (
     <li
-      className={clsx(css.item, {
-     
-      })}
+      className={css.item}
     >
       <span className={isOnline ? css.online : css.offline}>
         Status: {isOnline ? 'Online' : 'Offline'}
